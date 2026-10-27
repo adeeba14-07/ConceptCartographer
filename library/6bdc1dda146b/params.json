@@ -1,0 +1,1 @@
+{"max_concepts": 0, "min_freq": 2, "strict_relations": false, "cooc_window": 12, "cooc_min_count": 2, "cooc_max_per_node": 3, "auto_topics": true, "num_topics": 4, "k_min": 3, "k_max": 7, "lda_window": 4, "drop_examples": true, "min_paragraphs": 2, "concepts_only_topics": true, "first_page": 1, "max_chars": 400000, "extra_terms": ["bag of words"], "exclude_terms": []}
