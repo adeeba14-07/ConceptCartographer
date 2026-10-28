@@ -290,7 +290,7 @@ with st.sidebar:
         ai_key = st.text_input("Anthropic API key", value=default_key, type="password")
 
     run = st.button("Build map", type="primary", disabled=not sel_pages)
-    st.caption("Language model: " + ("✅ loaded" if nlp is not None else "⚠️ not installed (simpler mode)"))
+    
 
 if run and loaded and sel_pages:
     st.session_state["tried_terms"] = set()
